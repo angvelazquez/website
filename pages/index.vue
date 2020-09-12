@@ -358,7 +358,7 @@ export default {
 
     popupMSFT() {
       const innerHTML =
-        '<p>The new technologist program is an innovation academy jointly created by cyborg mobile and Microsoft’s M365 Core team. The premise of the program is to shorten the gap of education between the academic side of computer science and what is done in the technology industry.' +
+        '<p>The New Technologist program is an innovation academy jointly created by cyborg mobile and Microsoft’s M365 Core team. The premise of the program is to shorten the gap of education between the academic side of computer science and what is done in the technology industry.' +
         'Through this academy, I had  Alejandro Fischer as my mentor, Specero Nelson and Edward Ciabattari as my coaches, and Brian Besquit as an instructor. During this program, the main objective was to identify a problem statement, come up with a solution, and do the entire ' +
         'agile methodology process to bring that solution to life and present our work to CVPs (Corporate Vice Presidents) at Microsoft. I assisted my team by Engineering a chatbot capable of answering local government-related questions, as well as updating users about local events ' +
         'within their area using the Microsoft Bot Framework and Microsoft’s Azure cloud service. I would like to thank Vanessa Feliberti, Kobie Hatcher, and the crew supporting the program Shanon Bernstine, Jane Lindley, Kristin McMeen, Lazaro Carrion, and Christy Kim. </p>'
