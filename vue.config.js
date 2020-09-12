@@ -1,4 +1,4 @@
 // vue.config.js
 module.exports = {
-  publicPath: 'angelvelazquez'
+  publicPath: process.env.NODE_ENV === 'production' ? '/website/' : '/'
 }
