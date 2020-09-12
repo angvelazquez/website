@@ -15,7 +15,7 @@ export default {
       THREE,
       mouseControls: false,
       touchControls: false,
-      waveSpeed: 2,
+      waveSpeed: 1.35,
       scale: 1.0,
       scaleMobile: 1.0,
       color: '#2a876b'
