@@ -274,9 +274,7 @@
           Angel Velazquez, Design/Layout by Tanner Krewson
           <span id="footer-year">{{ year }}</span>
           <br />
-          <a
-            href="https://github.com/angvelazquez/website"
-            target="_blank"
+          <a href="https://github.com/angvelazquez/website" target="_blank"
             >View on GitHub</a
           >
         </footer>
