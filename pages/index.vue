@@ -275,7 +275,7 @@
           <span id="footer-year">{{ year }}</span>
           <br />
           <a
-            href="https://github.com/tannerkrewson/tannerkrewson.github.io"
+            href="https://github.com/angvelazquez/website"
             target="_blank"
             >View on GitHub</a
           >
