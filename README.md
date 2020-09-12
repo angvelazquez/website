@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # www.tannerkrewson.com
 
 **Visit the site: www.tannerkrewson.com**
@@ -24,3 +25,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+=======
+# website
+My First GitHub Pages Repository
+>>>>>>> 98c1ec96e1aba6d833b31623e716f0145db89baf

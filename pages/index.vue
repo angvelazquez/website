@@ -9,7 +9,7 @@
     <div class="container">
       <div class="full-title">
         <div class="profile">
-          <img src="me.jpg" class="profile-pic" alt="Tanner Krewson" />
+          <img src="IMG_5749 3.JPG" class="profile-pic" alt="Angel Velazquez" />
         </div>
         <h1
           id="typing-title"
@@ -25,35 +25,21 @@
           </span>
           •
           <span>
-            <a target="_blank" href="https://github.com/tannerkrewson/"
-              >GitHub</a
-            >
+            <a target="_blank" href="https://github.com/angvelazquez">GitHub</a>
           </span>
           •
           <span>
-            <a target="_blank" href="https://www.linkedin.com/in/tannerkrewson/"
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/angel-velazquez-ab1a62180/"
               >LinkedIn</a
             >
           </span>
+          •
+          <span>
+            <a target="_blank" href="Resume_SWE_Web.pdf">Resume</a>
+          </span>
           <br />
-          <span>
-            <a target="_blank" href="https://www.facebook.com/tannermkrewson/"
-              >Facebook</a
-            >
-          </span>
-          •
-          <span>
-            <a target="_blank" href="https://open.spotify.com/user/1241777067"
-              >Spotify</a
-            >
-          </span>
-          •
-          <span>
-            <a target="_blank" href="https://www.last.fm/user/TankTan38"
-              >Last.fm</a
-            >
-          </span>
-          <listening />
         </div>
       </div>
 
@@ -64,45 +50,21 @@
             <div class="card" style="width: 40em;">
               <div class="card-block">
                 <div class="card-title" style="margin-top: 1.5em 0;">
-                  <img
-                    class="company-logo"
-                    src="dss-dark.svg"
-                    style="width: 9em; margin: .3em 0;"
-                  />
+                  <h1>Biography</h1>
                 </div>
                 <div class="row">
-                  <div class="col-lg-6">
-                    <div style="margin:1em;">
-                      <h5 class="card-subtitle">Associate Software Engineer</h5>
-                      <div class="card-text">
-                        Started June 2020 - Remote
-                      </div>
-
-                      <div class="card-buttons">
-                        <button
-                          type="button"
-                          class="btn btn-outline-dark"
-                          @click="popupDSSFull"
-                        >
-                          More Info
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div style="margin:1em;">
-                      <h5 class="card-subtitle">Software Engineer Intern</h5>
-                      <div class="card-text">Fall 2019 - New York City</div>
-
-                      <div class="card-buttons">
-                        <button
-                          type="button"
-                          class="btn btn-outline-dark"
-                          @click="popupDSSIntern"
-                        >
-                          More Info
-                        </button>
-                      </div>
+                  <div style="margin:1em;">
+                    <div class="card-text">
+                      Hi, My name is Angel Velazquez and I am a junior at Stony
+                      Brook University pursuing a BS in computer science. I am
+                      seeking upcoming summer 2021 internship opportunities, and
+                      I aspire to work in a company that enables me to help
+                      others through the software I engineer, while also
+                      pursuing my passion of helping students from
+                      underrepresented backgrounds get into the STEM field. I am
+                      currently interested in software engineering roles that
+                      involve machine learning or other topics within artificial
+                      intelligence.
                     </div>
                   </div>
                 </div>
@@ -112,271 +74,203 @@
           <div class="col-md-2"></div>
         </div>
 
-        <div class="row">
-          <div class="col-md-4 card-col">
-            <div class="card">
-              <div class="card-block">
-                <div class="card-title" style="margin-top: 8px;">
-                  <img
-                    class="company-logo"
-                    src="gs-dark.svg"
-                    @click="popupGS"
-                  />
-                </div>
-                <br />
-                <h5 class="card-subtitle">Technology Analyst Intern</h5>
-                <div class="card-text">Summer 2019 - New York City</div>
-                <div class="card-buttons">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    @click="popupGS"
-                  >
-                    More Info
-                  </button>
-                </div>
-              </div>
+        <div class="card">
+          <div class="card-block">
+            <div class="card-title" style="margin-top: 8px;">
+              <img class="company-logo" src="msft.svg" @click="popupMSFT" />
             </div>
-          </div>
-          <div class="col-md-4 card-col">
-            <div class="card">
-              <div class="card-block">
-                <div class="card-title" style="margin-top: 8px;">
-                  <img
-                    class="company-logo"
-                    src="disney-parks-dark.svg"
-                    @click="popupDisney"
-                  />
-                </div>
-                <br />
-                <h5 class="card-subtitle">Software Engineer Intern</h5>
-                <div class="card-text">Summer 2018 - Seattle, WA</div>
-                <div class="card-buttons">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    @click="popupDisney"
-                  >
-                    More Info
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 card-col">
-            <div class="card">
-              <div class="card-block">
-                <div class="card-title" style="margin-top: 8px;">
-                  <img
-                    class="company-logo"
-                    src="espn-dark.svg"
-                    @click="popupESPN"
-                  />
-                </div>
-                <br />
-                <h5 class="card-subtitle">Software Engineer Intern</h5>
-                <div class="card-text">Summer 2017 - Bristol, CT</div>
-                <div class="card-buttons">
-                  <button
-                    type="button"
-                    class="btn btn-outline-dark"
-                    @click="popupESPN"
-                  >
-                    More Info
-                  </button>
-                </div>
-              </div>
+            <br />
+            <h5 class="card-subtitle">Microsoft New Technologist Intern</h5>
+            <div class="card-text">Summer 2020</div>
+            <div class="card-buttons">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                @click="popupMSFT"
+              >
+                More Info
+              </button>
             </div>
           </div>
         </div>
 
         <div class="row">
           <project-card
-            title="Drawphone"
-            left-button-href="https://drawphone.tannerkrewson.com/"
-            left-button-text="Play Drawphone"
-            right-button-href="https://github.com/tannerkrewson/drawphone"
-            right-button-text="View on GitHub"
+            title="Stony Brook Robotics Team"
+            left-button-href="https://sbroboticsteam.com"
+            left-button-text="Visit Club Website"
           >
-            A simple game of draw what you see, and guess what your friends
-            drew. Over 1.5 million drawings and guesses have been submitted to
-            date! Grab four or more of your friends, and play Drawphone right in
-            your phone's web browser.
+            Used Python and the OpenCV module to create 3 windows that each
+            contained a different camera feed from external cameras that would
+            be transmitted from a mars rover to its base station. Also created
+            web scrapers to autonomously download images to create a custom
+            dataset to train an image classifier.
           </project-card>
 
           <project-card
-            title="Spyfall"
-            left-button-href="https://spyfall.tannerkrewson.com/"
-            left-button-text="Play Spyfall"
-            right-button-href="https://github.com/tannerkrewson/spyfall"
-            right-button-text="View on GitHub"
+            title="SBU Hackathon"
+            left-button-href="https://github.com/Zharnite/VoizTrainer"
+            left-button-text="View on Github"
           >
-            The game that inspired Drawphone, spyfall.crabhat.com, was removed
-            from the Internet. So, I recovered the old code, rewrote most of it,
-            and added a few new features. Give it a shot!
+            Created a web app that is geared to help people who are soft spoken,
+            by using the microphone from the device visiting the website to
+            measure the amplitude of the speaker’s voice. When the amplitude is
+            too low the device will start to vibrate, indicating they need to
+            speak up.
           </project-card>
         </div>
 
         <div class="row">
           <project-card
-            title="PTSU Exposed"
-            left-button-href="https://www.tannerkrewson.com/ptsu/secret"
-            left-button-text="I'm confused"
-            right-button-href="https://www.tannerkrewson.com/ptsu/"
-            right-button-text="Go to PTSU Exposed"
+            title="CSE 114 Project: Connect Four"
+            left-button-href="https://www3.cs.stonybrook.edu/~cse114/L01/index.html"
+            left-button-text="CSE 114 Class Website"
           >
-            Apple and Google have been secretly installing a microchip in
-            smartphones that sends psychoelectric waves into the minds of their
-            users, allowing the highest bidding advertisers to influence
-            consumers' brand preferences. Discover the biggest conspiracy in the
-            history of mankind with PTSU Exposed.
+            Applied all object-oriented programming concepts learned in CSE 114
+            by using Java to create a connect four game that would prompt two
+            players to enter a row to drop their designated color into the game
+            board which would then stop when a winner is found.
           </project-card>
 
           <project-card
-            title="Connect 4"
-            left-button-href="https://kevinshannon.dev/connect4/"
-            left-button-text="Play Connect 4"
-            right-button-href="https://github.com/kevin-shannon/connect4"
-            right-button-text="View on GitHub"
+            title="Chapter Co-Founder, Co-President"
+            left-button-href="https://www.colorstack.org"
+            left-button-text="Checkout ColorStack"
           >
-            A multi-year effort between myself and my friend, Kevin Shannon. Try
-            the local and online multiplayer modes, or test your skills against
-            the wicked-smart AI in single player.
+            Co-Founded the chapter of ColorStack at Stony Brook University by
+            creating the chapter constitution, selecting the founding executive
+            board members, and increasing the chapter student body by 65%.
+            Helped the founding executive board members get started in
+            architecting the support systems for our student body.
           </project-card>
         </div>
         <div class="row">
           <project-card
-            title="Mutual Music"
-            left-button-href="https://www.tannerkrewson.com/mutual-music/"
-            left-button-text="Try it Out"
-            right-button-href="https://github.com/tannerkrewson/mutual-music"
-            right-button-text="View on GitHub"
+            title="Career Preparation Fellow"
+            left-button-href="https://mlt.org"
+            left-button-text="Checkout MLT"
           >
-            Using your Spotify accounts, Mutual Music creates a playlist of
-            songs you and a friend both love. No more fighting over whose music
-            to play! It's like mutual friends on Facebook, but for your favorite
-            songs.
+            Selected as one of 480 for an 18-month professional development
+            program for high-achieving diverse talent. Complete business case
+            studies and intensive assignments to hone analytical, quantitative,
+            and communication skills. Participate in four seminars hosted by
+            industry leaders, such as Google, Citi, Goldman Sachs, Deloitte, and
+            Target.
           </project-card>
           <project-card
-            title="Spotify-in-Common"
-            left-button-href="https://www.tannerkrewson.com/sic/"
-            left-button-text="Try it Out"
-            right-button-href="https://github.com/tannerkrewson/sic/"
-            right-button-text="View on GitHub"
+            title="Google Latinx Student Leadership Community Summit"
+            left-button-href="https://students.googleblog.com/2019/04/leading-through-latinidad-takeaways.html"
+            left-button-text="HSLS Blog Post"
           >
-            Mutual Music's more flexible predecessor. Select two or more Spotify
-            playlists, and Spotify-in-Common will generate a new playlist
-            containing the songs present in all of the selected playlists.
+            Recently accepted to take part in the Google LSLCS, with the intent
+            of helping me be Google ready as well as to meet and learn from the
+            Latinx+ Googler community through breakout discussions, networking
+            with the Hispanic Google Network, taking part in interview
+            workshops, and also attending discussions/panels centered around
+            Latinx leadership.
           </project-card>
         </div>
 
         <div class="row">
           <project-card
-            title="Snakeout"
-            left-button-href="https://snakeout.tannerkrewson.com/"
-            left-button-text="Play Snakeout"
-            right-button-href="https://github.com/tannerkrewson/snakeout"
-            right-button-text="View on GitHub"
+            title="Goldman Sachs Engineering Essentials Fellow"
+            left-button-href="https://www.goldmansachs.com/careers/students/programs/americas/engineering-possibilities-summit.html"
+            left-button-text="GS Engineering Essentials"
           >
-            A recreation of the board game The Resistance, made in the style of
-            Drawphone and Spyfall. Gather 5 to 10 of your friends, and prepare
-            yourself for major trust issues.
-          </project-card>
-
-          <project-card
-            title="COVID-19 Stimulus Check Calculator"
-            left-button-href="https://www.tannerkrewson.com/coronacalc"
-            left-button-text="Try it out"
-            right-button-href="https://github.com/tannerkrewson/coronacalc"
-            right-button-text="View on GitHub"
-          >
-            A simple quiz to see the difference in the stimulus check amount
-            that one would receive under the final CARES act, versus the
-            Democrats' original, failed act.
-          </project-card>
-        </div>
-
-        <div class="row">
-          <project-card
-            title="Vidocracy"
-            left-button-href="http://vidocracy.tannerkrewson.com/"
-            left-button-text="Try Vidocracy"
-            right-button-href="https://github.com/tannerkrewson/vidocracy"
-            right-button-text="View on GitHub"
-          >
-            Bring democracy to your party's YouTube videos! Open Vidocracy in
-            your phone's browser, and start voting on videos and songs to be
-            played on the big screen.
+            Took part in a month long series of events lead by professionals at
+            Goldman Sachs, where I was able to gain tangible resume-enhancing
+            skills through interactive workshops, work closely with a group of
+            peers to grow my technical and soft skills, and network with Goldman
+            Sachs professionals and hear more about their experiences and
+            diverse backgrounds.
           </project-card>
           <project-card
-            title="A Kiosk That's Not Trash"
-            left-button-href="https://www.tannerkrewson.com/a-kiosk-thats-not-trash/"
-            left-button-text="Try it Out"
-            right-button-href="https://github.com/tannerkrewson/a-kiosk-thats-not-trash"
-            right-button-text="View on GitHub"
+            title="Target Diversity Leadership Symposium"
+            left-button-href="https://ieor.berkeley.edu/job/diversity-leadership-symposium-2020-at-target-corporation/"
+            left-button-text="Target DLS Posting"
           >
-            When I was in college, I volunteered for an organization called SAB
-            that plans events and concerts for the students. The website we were
-            using to track ticket sales was born from the depths of hell, so I
-            created a better one that records sales into a Google Sheet.
+            One of 40 students selected nationally to participate in Target's
+            Diversity Leadership Symposium. A 3-day extensive program where I
+            was able to shadow a software engineer, learn and network with
+            diverse communties within Target, meet lead recruiters, participate
+            in a mini hackathon, and have the opportunity to interview of an
+            internship.
           </project-card>
         </div>
 
         <div class="row">
           <project-card
-            title="Backspace Bowling"
-            left-button-href="https://www.tannerkrewson.com/backspace-bowling/"
-            left-button-text="Try it Out"
-            right-button-href="https://github.com/tannerkrewson/backspace-bowling"
-            right-button-text="View on GitHub"
+            title="DPLN Extern"
+            left-button-href="https://www.stonybrook.edu/commcms/career-center/undergraduate/DPLN.php"
+            left-button-text="What is DPLN?"
           >
-            This game was made exclusively on a computer in my Personal Finance
-            class during my senior year of high school when I should have been
-            doing other things. It's okay though, I got an A in the class. Even
-            though it's barebones, it's still pretty fun. Hold down Backspace to
-            bowl!
+            Selected to participate in a highly competitive diversity mentorship
+            program. Attend weekly workshops on topics such as leadership,
+            networking and communication, and professional development. Receive
+            mentorship from a professional at Broadridge Financial Solutions.
           </project-card>
-
           <project-card
-            title="Calorie Countdown"
-            left-button-href="https://www.tannerkrewson.com/calorie-countdown/"
-            left-button-text="Try it Out"
-            right-button-href="https://github.com/tannerkrewson/calorie-countdown"
-            right-button-text="View on GitHub"
+            title="CSE 114 Teaching Assistant"
+            left-button-href="https://www3.cs.stonybrook.edu/~cse114/L01/index.html"
+            left-button-text="CSE 114 Class Website"
           >
-            Calorie Countdown represents the cutting edge of calorie counting
-            research, and is the pinnacle of diet and nutrition tracking
-            software today. Just kidding; it's really just a calculator with
-            nothing but a minus button that I used every day at the buffet
-            dining halls in college.
+            Held two weekly office hours to assist a student body of 240
+            students in their homeworks, exams, and projects. Proctored exams
+            being administered to 240 students as well as graded multiple exams
+            entirely. Led student lab sessions as well as exam review sessions
+            weekly in a class size of 30 students.
           </project-card>
         </div>
 
         <div class="row">
           <project-card
-            title="Red Team LAN"
-            left-button-href="https://www.tannerkrewson.com/redteamlan"
-            left-button-text="View the website"
+            title="Introduction to Physics Teaching Assistant"
+            left-button-href="https://www.stonybrook.edu/eopaim/"
+            left-button-text="Checkout EOP"
           >
-            The group I founded to play computer games with my friends. We've
-            had over 30 events since 2013. Check out the timelapses of the
-            parties on the website; they're pretty neat!
+            Guided 45 EOP students from underrepresented backgrounds through an
+            introduction to physics course to prepare them for college-level
+            physics. Prepared and ran review sessions two to three times per
+            week reinforcing topics taught in daily lectures.
           </project-card>
           <project-card
-            title="Lansite"
-            left-button-href="https://github.com/tannerkrewson/lansite"
-            left-button-text="View on GitHub"
+            title="Calculus 1 Teaching Assistant"
+            left-button-href="https://www.stonybrook.edu/eopaim/"
+            left-button-text="Checkout EOP"
           >
-            Connect your LAN party attendees with announcements, private
-            messaging, custom votes, and matchmaking. Lansite is fully modular
-            and features extensive documentation, so hosts can effortlessly
-            extend it to fit their needs.
+            Prepared 19 EOP students coming from underrepresented backgrounds to
+            take a university mandated math placement exam by reinforcing the
+            entire Calculus 1 curriculum in a matter of five weeks. Created
+            weekly sample exams for 19 students that contained topics covered
+            for the given week.
+          </project-card>
+        </div>
+
+        <div class="row">
+          <project-card
+            title="Success Coach/Mentor"
+            left-button-href="https://www.stonybrook.edu/ampcstep/about"
+            left-button-text="Checkout CSTEP"
+          >
+            Speak individually with three students who are part of the EOP or
+            CSTEP program to guide and mentor them on topics such as
+            time-management, test preparedness, and productive habits. Also
+            assisted with professional and academic support by doing resume
+            reviews , tutoring, and funneling opportunities to the students.
+          </project-card>
+          <project-card
+            title="Choral Singer"
+            left-button-href="https://www.youtube.com/watch?v=ZiGFa6Gwbzg"
+            left-button-text="My First Concert"
+          >
+            Sang as a tenor throughout college in the Stony Brook University
+            Choral.
           </project-card>
         </div>
 
         <br />
         <footer>
-          tannerkrewson,
+          Angel Velazquez, Design/Layout by Tanner Krewson
           <span id="footer-year">{{ year }}</span>
           <br />
           <a
@@ -396,15 +290,14 @@ import Cookies from 'js-cookie'
 import Typed from 'typed.js'
 import Swal from 'sweetalert2'
 
-import Listening from '~/components/Listening.vue'
 import ProjectCard from '~/components/ProjectCard.vue'
 
 const Popup = Swal.mixin({
-  confirmButtonColor: '#7c9cff'
+  confirmButtonColor: '#2a876b'
 })
 
 export default {
-  components: { Listening, ProjectCard },
+  components: { ProjectCard },
   data: () => ({
     year: new Date().getFullYear(),
     titleText: '',
@@ -427,7 +320,7 @@ export default {
 
       // execute the animation
       new Typed('.title', {
-        strings: ['Tanner Krewson'],
+        strings: ['Angel Velazquez'],
         typeSpeed: 100,
         onComplete: () => {
           // wait a bit, then show the page
@@ -436,7 +329,7 @@ export default {
       })
     } else {
       // forgo the animation, and just show the page
-      this.titleText = 'Tanner Krewson'
+      this.titleText = 'Angel Velazquez'
       this.showPage()
     }
   },
@@ -459,83 +352,17 @@ export default {
       Popup.fire({
         title: 'Email me!',
         html:
-          '<div style="color: light-blue; text-align:center;"><a href="mailto:tannerkrewson@gmail.com">tannerkrewson@gmail.com</a></div>'
+          '<div style="color: light-green; text-align:center;"><a href="mailto:angel.velazquez@stonybrook.edu">angel.velazquez@stonybrook.edu</a></div>'
       })
     },
 
-    popupESPN() {
+    popupMSFT() {
       const innerHTML =
-        'ESPN was a great first internship! I spent the first ​6​ ​weeks​ on ​the​ ​Consumer​ ​Tech​ ​Ops​ ​team,​ ​' +
-        'diagnosing​ ​and​ ​fixing​ ​bugs across​ ​ESPN.com​. I spent the ' +
-        'remaining ​4​ ​weeks​ ​on​ ​the​ ESPN.com ​feature​ ​development​ ​team,​ ​working on the homepage news feed, a redesign ' +
-        "for MLB Gamecast, and an internal tool called Feed Manager. Here's " +
-        'what I put on my resume about it:<br><br>' +
-        '<ul style="text-align: left;"><li>Designed​ ​and​ ​implemented​ ​live​ ​updating​ ​for​ ​news​ ​feeds​ ​on​ ​ESPN.com</li>' +
-        '<li>Recognized and corrected a deployment flaw that could have taken down the site</li>' +
-        '<li>Resolved​ ​long-standing​ ​major​ ​UI​ ​issues​ ​with​ ​an​ ​internal​ ​translations​ ​tool</li>' +
-        '<li>Wrote new features in React for a tool used by editors to write and publish articles</li>' +
-        '<li>Navigated a legacy code base written with a proprietary back-end language called Tea</li>' +
-        '</ul>'
-      Popup.fire({
-        html: innerHTML,
-        imageUrl: 'https://i.imgur.com/aYKfZ62.jpg'
-      })
-    },
-
-    popupDisney() {
-      const innerHTML =
-        "<p>My second internship was at Disney's Seattle office. I worked on Studio Northstar, a team that develops ​" +
-        'the attraction and show pages for the Disney parks. Our main task for the summer was a redesign of the ' +
-        "attractions pages from PHP to Angular 5. Here's what I put on my resume about it:<br><br>" +
-        '<ul style="text-align: left;"><li>Worked on a full stack redesign of the Disney attractions pages in Angular 5 and Node</li>' +
-        '<li>Created four major UI components in Angular 5 and ensured 100% unit test coverage</li>' +
-        "<li>Wrote a feature that themes the UI by extracting colors from an attraction's image</li>" +
-        '<li>Took the initiative to refactor and document the Angular 5 project as it grew</li>' +
-        "<li>Designed an easter egg that reveals the developers' names when activated</li>" +
-        '<li>Made many bug fixes and minor features across legacy PHP and Angular 1 codebases</li>' +
-        '</ul></p>'
-      Popup.fire({
-        html: innerHTML,
-        imageUrl: 'https://i.imgur.com/Rzpnv4A.jpg'
-      })
-    },
-
-    popupGS() {
-      const innerHTML =
-        '<p>My third internship was at Goldman Sachs in NYC. It ' +
-        'was an awesome experience going from never having taken an econ class ' +
-        'to working on Wall Street! I worked on the Goldman Sachs Asset ' +
-        'Management Compliance Automation team. My project was to redesign an ' +
-        'existing dashboard for compliance officers to easily see what trades ' +
-        'they need to review. I did it with React, Redux, and a bit of Java.​' +
-        '</p>'
-      Popup.fire({
-        html: innerHTML,
-        imageUrl: 'https://i.imgur.com/hYkR64w.jpg'
-      })
-    },
-
-    popupDSSIntern() {
-      const innerHTML =
-        '<p>For my fourth and final internship, I spent my fall semester ' +
-        'at Disney Streaming Services in NYC for the launch of Disney+. ' +
-        'I joined the Web Platform Architecture team, which manages ' +
-        'the servers for disneyplus.com on AWS. I also created an internal ' +
-        'tool with Next.js and React to quickly find and view information ' +
-        'about any microservice in the company.' +
-        '</p>'
-      Popup.fire({
-        html: innerHTML,
-        imageUrl: 'https://i.imgur.com/dmIzkPU.png'
-      })
-    },
-
-    popupDSSFull() {
-      const innerHTML =
-        '<p>After graduating in May 2020, I returned to Disney Streaming ' +
-        'Services as a full-time software engineer. I onboarded and work ' +
-        'remotely due to the COVID-19 pandemic.' +
-        '</p>'
+        '<p>Engineered a chat bot capable of answering local government-related questions, ' +
+        'as well as updating users about local events ' +
+        'within their area using the Microsoft Bot Framework and Microsoft’s Azure cloud service. ' +
+        'Presented my team’s MVP, a web application called Localized, ' +
+        'to CVPs within the Microsoft M365 Core Team. </p>'
       Popup.fire({
         html: innerHTML
       })
@@ -544,7 +371,7 @@ export default {
     onTitleClick() {
       if (this.projectCardsNonexistent) {
         // forgo the animation, and just show the page
-        this.titleText = 'Tanner Krewson'
+        this.titleText = 'Angel Velazquez'
         this.showPage()
       } else {
         this.popupReplayAnimation()
@@ -584,7 +411,7 @@ body {
 }
 
 .stationary-background {
-  background: #7c9cff;
+  background: #00fa44;
   background-repeat: no-repeat;
   width: 100%;
   top: -80px;
@@ -652,7 +479,7 @@ body {
 }
 
 .profile-pic {
-  height: 130px;
+  height: 100px;
   border-radius: 50%;
 }
 

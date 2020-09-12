@@ -15,8 +15,12 @@ export default {
       THREE,
       mouseControls: false,
       touchControls: false,
-      color: '#4060C2'
+      waveSpeed: 2,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: '#2a876b'
     })
+    // #4060C2
   }
 }
 </script>
