@@ -55,17 +55,21 @@
                 <div class="row">
                   <div style="margin: 1em">
                     <div class="card-text">
-                      Hi, my name is Angel Velazquez and I am a junior at Stony
+                      Hi, my name is Angel Velazquez, and I am a junior at Stony
                       Brook University pursuing a B.S. in computer science. I
-                      seek upcoming summer 2021 internship opportunities and I
-                      aspire to work in a company that would enable me to help
-                      others through the software I engineer while I also pursue
-                      my passion of helping students from underrepresented
-                      backgrounds get into the STEM field. I am currently
-                      interested in software engineering roles that involve
-                      machine learning or other topics within artificial
-                      intelligence and will make it my mission to master the
-                      field and be able to contribute to the world.
+                      seek upcoming summer 2021 software engineering internship
+                      opportunities, and I aspire to work at a company that
+                      would enable me to impact others through the code I write.
+                      I have acquired multiple soft skills, such as leadership
+                      and communication, through the professional development
+                      organizations, and the campus involvement I’ve taken part
+                      in which can be seen below. I have also gained hard
+                      technical skills through my past internship with Microsoft
+                      by learning technologies such as git, React Typescript,
+                      Azure Cloud, and the Microsoft Bot Framework. I hope to
+                      bring all of my skills and experience to the company’s
+                      position I fit best in and look forward to making a
+                      positive impact in the industry.
                     </div>
                   </div>
                 </div>
@@ -127,10 +131,11 @@
             left-button-href="https://www3.cs.stonybrook.edu/~cse114/L01/index.html"
             left-button-text="CSE 114 Class Website"
           >
-            Applied all object-oriented programming concepts learned in CSE 114
-            by using Java to create a connect four game that would prompt two
-            players to enter a row to drop their designated color into the game
-            board which would then stop when a winner is found.
+            Applied all object-oriented programming concepts learned in CSE 114,
+            Intro to Object-Oriented Programming, by using Java to create a
+            connect four game that would prompt two players to enter a row to
+            drop their designated color into the game board which would then
+            stop when a winner is found.
           </project-card>
 
           <project-card
@@ -163,12 +168,12 @@
             left-button-href="https://students.googleblog.com/2019/04/leading-through-latinidad-takeaways.html"
             left-button-text="HSLS Blog Post"
           >
-            Recently accepted to take part in the Google LSLCS, with the intent
-            of helping me be Google ready as well as to meet and learn from the
-            Latinx+ Googler community through breakout discussions, networking
-            with the Hispanic Google Network, taking part in interview
-            workshops, and also attending discussions/panels centered around
-            Latinx leadership.
+            Recently accepted to take part in the Google LSLCS, a program with
+            the intent of helping me be Google ready as well as to meet and
+            learn from the Latinx+ Googler community through breakout
+            discussions, networking with the Hispanic Google Network, taking
+            part in interview workshops, and also attending discussions/panels
+            centered around Latinx leadership.
           </project-card>
         </div>
 
@@ -264,8 +269,7 @@
             left-button-href="https://www.youtube.com/watch?v=ZiGFa6Gwbzg"
             left-button-text="My First Concert"
           >
-            Sang as a tenor throughout college in the Stony Brook University
-            Choral.
+            Sing as a tenor in the Stony Brook University Choral.
           </project-card>
         </div>
 
@@ -274,8 +278,6 @@
           Angel Velazquez, Design/Layout by Tanner Krewson
           <span id="footer-year">{{ year }}</span>
           <br />
-          <a href="https://github.com/angvelazquez/website" target="_blank"
-            >View on GitHub</a
           >
         </footer>
       </div>
@@ -292,7 +294,7 @@ import Swal from 'sweetalert2'
 import ProjectCard from '~/components/ProjectCard.vue'
 
 const Popup = Swal.mixin({
-  confirmButtonColor: '#2a876b'
+  confirmButtonColor: '#2a876b',
 })
 
 export default {
@@ -304,7 +306,7 @@ export default {
     typingTitleColor: () => 'white',
     projectCardsNonexistent: true,
     darkStartBackgroundColor: '#212529',
-    darkStartTransition: false
+    darkStartTransition: false,
   }),
   mounted() {
     const shouldPlayAnimation = !(Cookies.get('typed') === 'true')
@@ -324,7 +326,7 @@ export default {
         onComplete: () => {
           // wait a bit, then show the page
           setTimeout(() => this.showPage(), 300)
-        }
+        },
       })
     } else {
       // forgo the animation, and just show the page
@@ -351,7 +353,7 @@ export default {
       Popup.fire({
         title: 'Email me!',
         html:
-          '<div style="color: light-green; text-align:center;"><a href="mailto:angel.velazquez@stonybrook.edu">angel.velazquez@stonybrook.edu</a></div>'
+          '<div style="color: light-green; text-align:center;"><a href="mailto:angel.velazquez@stonybrook.edu">angel.velazquez@stonybrook.edu</a></div>',
       })
     },
 
@@ -359,7 +361,7 @@ export default {
       const innerHTML =
         '<p>The New Technologist program is an innovation academy jointly created by Cyborg Mobile and Microsoft’s M365 Core team. The premise of the program is to shorten the gap of education between the academic side of computer science and what is done in the technology industry. Through this academy, I had  Alejandro Fischer as my mentor, Spencer Nelson and Edward Ciabattari as my coaches, and Brian Bansenauer as an instructor. During this program, the main objective was to identify a problem statement, come up with a solution, and do the entire agile methodology process to bring that solution to life and present our work to CVPs (Corporate Vice Presidents) at Microsoft. I assisted my team by engineering a chatbot capable of answering local government-related questions, as well as updating users about local events within their area using the Microsoft Bot Framework and Microsoft’s Azure cloud service. I would like to thank Vanessa Feliberti, Kobie Hatcher, and the crew supporting the program Shanon Bernstine, Jane Lindley, Kristin McMeen, Lazaro Carrion, and Christy Kim. </p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -367,7 +369,7 @@ export default {
       const innerHTML =
         "<p>When joining the Stony Brook University's robotics team, I sought ways to learn what creating software and writing programs looked like outside of the classroom. At the time, the robotics team was working on completing a Mars Rover to compete with in the University Rover Challenge. Not knowing anything I was assigned the task of providing a live camera feed to external cameras and it was here that I was introduced to the field of computer vision and my interest in AI was sparked. I attempted to dive deeper into the field of AI through the robotics team's new project, a race car capable of driving autonomously, but was abruptly stopped due to the COVID pandemic. </p>"
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -375,7 +377,7 @@ export default {
       const innerHTML =
         '<p>The SBU Hackathon was my first hackathon. It is a new, annually-recurring hackathon at Stony Brook University. My teammates and I formed a time and brain stormed an idea that would be easy to implement but also impactful. One of my teammates thought of something to help self spoken people when they needed to speak. So, we decided to create an indicator of some sort to help the soft spoken know when they need to speak loud and that is when we came up with VoizTrainer. VoizTrainer is a web application that gets access to the visiting device’s microphone and vibrates if the input is lower than a certain amplitude and if the speaker speaks at a volume above a certain threshold, the web app will show a green color, and will not vibrate.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -383,7 +385,7 @@ export default {
       const innerHTML =
         '<p>CSE 114 Is the Introduction to Object Oriented Programming course. The final project in this course was to create a connect 4 game for two players from scratch. I am extremely proud of this project because I created  the program entirely without any outside resource or information. It was very exhilarating  to think through all the implementations and planning on my own. Also, it was fun to see that all the aspects of object-oriented programming come together through the creation of the connect-4 project.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -391,7 +393,7 @@ export default {
       const innerHTML =
         '<p>ColorStack is a non profit organization with the mission of increasing the entrance, retention, and success of Black, Latinx, and Native American students pursuing technical majors. I spoke with the founder and CEO of ColorStack, Jehron Petty, while he was a student at Cornell University. I spoke to him and shared how isolating and difficult it was being a CS student of color at my university. Jehron said he knows what it is like and it is why he started his organization at Cornell University. Jehron and I then started planning to launch a chapter at my institution, Stony Brook University and we currently are providing resources and support to those who are racially underrepresented in the tech industry.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -399,7 +401,7 @@ export default {
       const innerHTML =
         '<p>The Management Leadership for Tomorrow (MLT) career prep program is a program that recruits the nation’s top diverse talent and poises them to become industry leaders in order to make change in racial disparities in the multiple industries. Being a career prep fellow entails going to multiple workshops and bootcamps led by industry leaders to gain mastery leadership quantitative, and communication skills. Also each fellow receives personalized professional coaching and has access to many of the MLT partners such as Facebook, Google, Adobe, and more.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -407,7 +409,7 @@ export default {
       const innerHTML =
         '<p>After being invited and participating in Google’s online Hispanic Student Leadership Summit, I was again selected to take part in Google’s new Latinx Student Leadership Summit which will have the goal of getting me Google ready by attending workshops in leadership, technical interviewing, and by networking with Google’s Latinx community. Taking part of this experience is extremely important to me because as I am the co-founder and co-president of a new organization at my university, I need to use resources just like this summit to grow to become an effective and exceptional leader.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -415,7 +417,7 @@ export default {
       const innerHTML =
         '<p>After learning about the opportunity to take part of the Engineering Essentials program at Goldman Sachs, I instantly applied and was one of the few accepted. During this program, I learned from so many different engineers and professionals at the company about what it is like to work at Goldman Sachs, as well as going through workshops that gave us the engineering essentials fellows, skills in the stock market, in natural language processing, and more.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -423,7 +425,7 @@ export default {
       const innerHTML =
         '<p>The Target Diversity Leadership Symposium, DLS for short, was a very memorable event. It gave me the opportunity to shadow and get insight from new grad software engineers, meet others in competing through a hackathon, an opportunity to interview for an internship, and finally get my questions answered honestly by engineers themselves. I learned a lot about Target’s and was impressed by their approach to diversity and inclusion and the success they have already achieved so far. In all honesty in my mind they are a definite leader in this industry.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -431,7 +433,7 @@ export default {
       const innerHTML =
         '<p>Being a T.A. for CSE 114: Introduction to Object-Oriented Programming, was my first computer science TA position. I love teaching and helping others learn complex concepts and programming and I have always had great relationships with TAs so far in my undergraduate studies so I decided to give back. Being a TA in this particular course was so much more than being just a TA. Being a computer science student of color I have always felt incredibly isolated and discouraged from continuing to pursue the major because I had no one to look up to in the field that looked like me. Being this TA gave me the opportunity to change that. I am a Dominican and Puerto Rican student, a CS student of color was a teaching assistant to a CS course and I was able to give the students who are racially underrepresented in CS who were taking the course an example that we can make, and that we can be successful in this field.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -439,7 +441,7 @@ export default {
       const innerHTML =
         '<p>The reason why I am able to attend Stony Brook University is because of the EOP program and I am incredibly thankful for it. EOP stands for educational opportunity program and is meant to help those who come from underserved communities get into institutions of higher education. Coming from a family of individuals who never went to college, and even some who never finished high school, I never knew what it took from me to go to college and I was completely oblivious to what education can do for me. It was only until my senior year of high school that I finally understood everything that my peers knew for years to come. I was fortunate enough to have a family that had gone through similar experiences and told me about programs like EOP that were meant for students like me. From then on, I reached a level of success I never thought possible. EOP students need to be part of a summer program before being fully matriculated into the university and in order to give back I decided to become a T.A. in one of my favorite classes.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -447,7 +449,7 @@ export default {
       const innerHTML =
         '<p>The reason why I am able to attend Stony Brook University is because of the EOP program and I am incredibly thankful for it. EOP stands for educational opportunity program and is meant to help those who come from underserved communities get into institutions of higher education. Coming from a family who never went to college, and even some who were unable to finish high school, I never knew what it took from me to go to college and I was completely oblivious to what education can do for me. It was only until my senior year of high school that I finally understood everything that my peers knew for years to come. I was fortunate enough to have a family that had gone through similar experiences and told me about programs like EOP that were meant for students like me. Mathematics has always been my favorite subject and it helps me recognize that computer science is where my passion lies. So, to give back and be a teaching assistant in mathematics allowed me to help others enjoy math as I do.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -455,7 +457,7 @@ export default {
       const innerHTML =
         '<p>I never had a mentor before taking the role of being a mentor to three different students, but I did know that having someone believe in the impact you can make can make all the world of a difference. I tried in my best effort to tell them about my experiences and provide advice and I worked with them, told them about different opportunities, motivated them, had fun with them and they became so much more than my mentees they became my friends and just like they may have learned some things from me I definitely learned from them as well. To my mentees, Aidan Furey, Hamed Drame, and Linda Ye and I am incredibly grateful to have been your mentor and I am proud of all of you.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -463,7 +465,7 @@ export default {
       const innerHTML =
         '<p>I’ve been singing in a choir since age 7 and I am currently still singing at age 19. Being part of a choir is not something I thought I would continue to do but I am still here doing it. The only time I was gonna drop it and stop pursuing music was when I was 10 years old, but a teacher inspired me to keep going and it has been nothing short of an amazing experience.</p>'
       Popup.fire({
-        html: innerHTML
+        html: innerHTML,
       })
     },
 
@@ -483,15 +485,15 @@ export default {
         type: 'question',
         showCancelButton: true,
         confirmButtonText: 'Yes',
-        cancelButtonText: 'No'
+        cancelButtonText: 'No',
       }).then((result) => {
         if (result.value) {
           Cookies.set('typed', 'false')
           location.reload()
         }
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
